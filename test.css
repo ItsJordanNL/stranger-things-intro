@@ -41,40 +41,352 @@ body {
         0 0 20px #450100;
 }
 
-.scene7-n {
-    animation-name: scene7-n;
-    animation-duration: 5.5s;
-    animation-timing-function: linear;
+.scene8-a {
+    animation-name: scene8-a;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
     visibility: visible !important;
-    /* animation-delay: 22.5s; */
+    /* animation-delay: 25.5s; */
     font-size: 800px;
     position: absolute;
-    top: -948px;
-    left: -39px;
+    top: -550px;
+    left: -92px;
     backface-visibility: hidden;
     z-index: 7;
     opacity: 0;
     animation-fill-mode: forwards;
-    text-shadow: -0.2rem -0.2rem 1px #ed2b12,
-        0.2rem -0.2rem 1px #ed2b12,
-        -0.2rem 0.2rem 1px #ed2b12,
-        0.2rem 0.2rem 1px #ed2b12,
-        0 0 750px #630100,
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
         0 0 100px #450100;
 }
 
-@keyframes scene7-n {
+@keyframes scene8-a {
     0.01% {
-        opacity: 0;
-    }
-
-    78% {
-        /* transform: scale(0.9) translateX(-120px) translatey(140px); */
         opacity: 1;
     }
 
     100% {
-        /* transform: scale(0.9) translateX(-120px) translatey(140px); */
+        transform: scale(0.2);
+        top: -203px;
+        left: 386px;
+        opacity: 1;
+    }
+}
+
+.scene8-n1 {
+    animation-name: scene8-n1;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: -550px;
+    left: 839px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-n1 {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -203px;
+        left: 539px;
+        opacity: 1;
+    }
+}
+
+.scene8-i {
+    animation-name: scene8-i;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: 159px;
+    left: -300px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-i {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -65px;
+        left: 581px;
+        opacity: 1;
+    }
+}
+
+.scene8-g2 {
+    animation-name: scene8-g2;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: 233px;
+    left: 1562px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-g2 {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -65px;
+        left: 589px;
+        opacity: 1;
+    }
+}
+
+.scene8-g1 {
+    animation-name: scene8-g1;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: -514px;
+    left: 1489px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-g1 {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -203px;
+        left: 590px;
+        opacity: 1;
+    }
+}
+
+.scene8-r {
+    animation-name: scene8-r;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: -550px;
+    left: -1100px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-r {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -203px;
+        left: 296px;
+        opacity: 1;
+    }
+}
+
+.scene8-n2 {
+    animation-name: scene8-n2;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: 1000px;
+    left: 554px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-n2 {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -65px;
+        left: 538px;
+        opacity: 1;
+    }
+}
+
+.scene8-t2 {
+    animation-name: scene8-t2;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: 159px;
+    left: -2000px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-t2 {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -65px;
+        left: 277px;
+        opacity: 1;
+    }
+}
+
+.scene8-t1 {
+    animation-name: scene8-t1;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: -1500px;
+    left: -1000px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-t1 {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -203px;
+        left: 238px;
+        opacity: 1;
+    }
+}
+
+.scene8-h {
+    animation-name: scene8-h;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: 1846px;
+    left: 324px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-h {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -65px;
+        left: 321px;
         opacity: 1;
     }
 }
