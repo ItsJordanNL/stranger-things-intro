@@ -41,32 +41,421 @@ body {
         0 0 20px #450100;
 }
 
-.scene1-a{
+.scene1-a {
     animation-name: scene1-a;
-    animation-duration: 4s;   
-    animation-timing-function: linear;        
+    animation-duration: 7s;
+    animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 2s;
+    animation-delay: 0s;
     font-size: 8000px;
     position: absolute;
-    top: 41800px;
-    left: 10610px;
-    transform: scale(30);
-    text-shadow: -0.05rem -0.05rem 1px #ed2b12,
-    0.05rem -0.05rem 1px #ed2b12,
-    -0.05rem 0.05rem 1px #ed2b12,
-    0.05rem 0.05rem 1px #ed2b12,
-    0 0 15px #630100,
-    0 0 20px #450100;
+    top: -3000px;
+    left: -1090px;
+    transform: scale(2.8);
     backface-visibility: hidden;
+    z-index: 1;
+    animation-fill-mode: forwards;
+    text-shadow: -0.5rem -0.5rem 1px #ed2b12,
+        0.5rem -0.5rem 1px #ed2b12,
+        -0.5rem 0.5rem 1px #ed2b12,
+        0.5rem 0.5rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
 }
 
 @keyframes scene1-a {
     0% {
-        transform: scale(30);
+        transform: scale(2.8);
     }
 
-    100% {
-        transform: scale(27.5) translateX(-38px) translatey(-100px);
-    }   
+    99.99% {
+        transform: scale(1.8) translateX(-258px) translatey(0px);
+        opacity: 1;
+    }
+}
+
+.scene2-n {
+    animation-name: scene2-n;
+    animation-duration: 4.5s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 7s;
+    font-size: 3500px;
+    position: absolute;
+    top: -1500px;
+    left: -800px;
+    backface-visibility: hidden;
+    z-index: 2;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    background-color: #000;
+    padding: 100px;
+    text-shadow: -0.2rem -0.2rem 1px #ed2b12,
+        0.4rem -0.4rem 1px #ed2b12,
+        -0.4rem 0.4rem 1px #ed2b12,
+        0.4rem 0.4rem 1px #ed2b12,
+        0 0 150px #630100,
+        0 0 200px #450100;
+}
+
+@keyframes scene2-n {
+    0.01% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.9) translatey(200px);
+        opacity: 1;
+    }
+}
+
+.scene3-r {
+    animation-name: scene3-r;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 11.5s;
+    font-size: 3500px;
+    position: absolute;
+    top: -1020px;
+    left: -1000px;
+    backface-visibility: hidden;
+    z-index: 3;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.2rem -0.2rem 1px #ed2b12,
+        0.3rem -0.3rem 1px #ed2b12,
+        -0.3rem 0.3rem 1px #ed2b12,
+        0.3rem 0.3rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene3-r {
+    0.01% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.9) translateX(-100px) translatey(-60px);
+        opacity: 1;
+    }
+}
+
+.scene3-h {
+    animation-name: scene3-h;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 11.5s;
+    font-size: 3500px;
+    position: absolute;
+    top: -1220px;
+    left: 1200px;
+    backface-visibility: hidden;
+    z-index: 3;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.2rem -0.2rem 1px #ed2b12,
+        0.4rem -0.4rem 1px #ed2b12,
+        -0.4rem 0.4rem 1px #ed2b12,
+        0.4rem 0.4rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene3-h {
+    0.01% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.9) translateX(14px) translatey(0px);
+        opacity: 1;
+    }
+}
+
+.scene4-g1 {
+    animation-name: scene4-g1;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 14s;
+    font-size: 3500px;
+    position: absolute;
+    top: -3106px;
+    left: -532px;
+    backface-visibility: hidden;
+    z-index: 4;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    background-color: #000;
+    padding: 100px;
+    text-shadow: -0.2rem -0.2rem 1px #ed2b12,
+        0.4rem -0.4rem 1px #ed2b12,
+        -0.4rem 0.4rem 1px #ed2b12,
+        0.4rem 0.4rem 1px #ed2b12,
+        0 0 150px #630100,
+        0 0 200px #450100;
+}
+
+@keyframes scene4-g1 {
+    0.01% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.80) translateX(258px) translatey(360px);
+        opacity: 1;
+    }
+}
+
+.scene4-g2 {
+    animation-name: scene4-g2;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 14s;
+    font-size: 2500px;
+    position: absolute;
+    top: 16px;
+    left: -78px;
+    backface-visibility: hidden;
+    z-index: 4;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: 0.4rem -0.8rem 1px #ed2b12,
+        0.4rem -0.4rem 1px #ed2b12,
+        -0.4rem 0.4rem 1px #ed2b12,
+        0.4rem 0.4rem 1px #ed2b12,
+        0 0 150px #630100,
+        0 0 200px #450100;
+}
+
+@keyframes scene4-g2 {
+    0.01% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.85) translateX(-300px) translatey(-190px);
+        opacity: 1;
+    }
+}
+
+.scene5-r {
+    animation-name: scene5-r;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 16.5s;
+    font-size: 3500px;
+    position: absolute;
+    top: -1089px;
+    left: -2283px;
+    backface-visibility: hidden;
+    z-index: 5;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    padding: 100px;
+    text-shadow: -0.4rem -0.4rem 1px #ed2b12,
+        0.4rem -0.4rem 1px #ed2b12,
+        -0.4rem 0.4rem 1px #ed2b12,
+        0.4rem 0.4rem 1px #ed2b12,
+        0 0 150px #630100,
+        0 0 200px #450100;
+}
+
+@keyframes scene5-r {
+    0.01% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.82) translateX(460px) translatey(-400px);
+        opacity: 1;
+    }
+}
+
+.scene5-s {
+    animation-name: scene5-s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 16.5s;
+    font-size: 2800px;
+    position: absolute;
+    top: -802px;
+    left: 391px;
+    backface-visibility: hidden;
+    z-index: 5;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    padding: 100px;
+    text-shadow: -0.4rem -0.4rem 1px #ed2b12,
+        0.4rem -0.4rem 1px #ed2b12,
+        -0.4rem 0.4rem 1px #ed2b12,
+        0.4rem 0.4rem 1px #ed2b12,
+        0 0 150px #630100,
+        0 0 200px #450100;
+}
+
+@keyframes scene5-s {
+    0.01% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.85) translateX(-260px) translatey(-300px);
+        opacity: 1;
+    }
+}
+
+.scene6-t1 {
+    animation-name: scene6-t1;
+    animation-duration: 5.5s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 19.5s;
+    font-size: 1250px;
+    position: absolute;
+    top: -948px;
+    left: -39px;
+    backface-visibility: hidden;
+    z-index: 6;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.2rem -0.2rem 1px #ed2b12,
+        0.2rem -0.2rem 1px #ed2b12,
+        -0.2rem 0.2rem 1px #ed2b12,
+        0.2rem 0.2rem 1px #ed2b12,
+        0 0 150px #630100,
+        0 0 200px #450100;
+}
+
+@keyframes scene6-t1 {
+    0.01% {
+        opacity: 1;
+    }
+
+    22% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.9) translateX(-120px) translatey(140px);
+        opacity: 0;
+    }
+}
+
+.scene6-a {
+    animation-name: scene6-a;
+    animation-duration: 5.5s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 19.5s;
+    font-size: 1250px;
+    position: absolute;
+    top: -948px;
+    left: 1037px;
+    backface-visibility: hidden;
+    z-index: 6;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.2rem -0.2rem 1px #ed2b12,
+        0.2rem -0.2rem 1px #ed2b12,
+        -0.2rem 0.2rem 1px #ed2b12,
+        0.2rem 0.2rem 1px #ed2b12,
+        0 0 150px #630100,
+        0 0 200px #450100;
+}
+
+@keyframes scene6-a {
+    0.01% {
+        opacity: 1;
+    }
+
+    22% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.9) translateX(120px) translatey(140px);
+        opacity: 0;
+    }
+}
+
+.scene6-t2 {
+    animation-name: scene6-t2;
+    animation-duration: 5.5s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 19.5s;
+    font-size: 1250px;
+    position: absolute;
+    top: 218px;
+    left: -429px;
+    backface-visibility: hidden;
+    z-index: 6;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: 0.2rem -0.2rem 1px #ed2b12,
+        0.2rem -0.2rem 1px #ed2b12,
+        -0.2rem 0.2rem 1px #ed2b12,
+        0.2rem 0.2rem 1px #ed2b12,
+        0 0 150px #630100,
+        0 0 200px #450100;
+}
+
+@keyframes scene6-t2 {
+    0.01% {
+        opacity: 1;
+    }
+
+    22% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.9) translateX(180px) translatey(50px);
+        opacity: 0;
+    }
+}
+
+.scene6-h {
+    animation-name: scene6-h;
+    animation-duration: 5.5s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    animation-delay: 19.5s;
+    font-size: 1250px;
+    position: absolute;
+    top: 218px;
+    left: 1180px;
+    backface-visibility: hidden;
+    z-index: 6;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow:
+        -0.2rem -0.2rem 1px #ed2b12,
+        0.2rem -0.2rem 1px #ed2b12,
+        -0.2rem 0.2rem 1px #ed2b12,
+        0.2rem 0.2rem 1px #ed2b12,
+        0 0 150px #630100,
+        0 0 200px #450100;
+}
+
+@keyframes scene6-h {
+    0.01% {
+        opacity: 1;
+    }
+
+    22% {
+        opacity: 1;
+    }
+
+    99.99% {
+        transform: scale(0.9) translateX(-100px) translatey(20px);
+        opacity: 0;
+    }
 }

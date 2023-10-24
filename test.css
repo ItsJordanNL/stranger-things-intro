@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'itc_benguiat_bold';
+    src: url('fonts/benguiatstd-bold-webfont.woff2') format('woff2'),
+        url('fonts/benguiatstd-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'itc_benguiat_regular';
+    src: url('fonts/benguiatstd-book-webfont.woff2') format('woff2'),
+        url('fonts/benguiatstd-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'itc_benguiat_medium';
+    src: url('fonts/benguiatstd-medium-webfont.woff2') format('woff2'),
+        url('fonts/benguiatstd-medium-webfont.woff') format('woff');
+    font-weight: medium;
+    font-style: normal;
+}
+
+body {
+    background: #000;
+    overflow: hidden;
+}
+
+* {
+    font-family: 'itc_benguiat_bold';
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #1c0502;
+    text-shadow: -0.05rem -0.05rem 1px #ed2b12,
+        0.05rem -0.05rem 1px #ed2b12,
+        -0.05rem 0.05rem 1px #ed2b12,
+        0.05rem 0.05rem 1px #ed2b12,
+        0 0 15px #630100,
+        0 0 20px #450100;
+}
+
+.scene7-n {
+    animation-name: scene7-n;
+    animation-duration: 5.5s;
+    animation-timing-function: linear;
+    visibility: visible !important;
+    /* animation-delay: 22.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: -948px;
+    left: -39px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.2rem -0.2rem 1px #ed2b12,
+        0.2rem -0.2rem 1px #ed2b12,
+        -0.2rem 0.2rem 1px #ed2b12,
+        0.2rem 0.2rem 1px #ed2b12,
+        0 0 750px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene7-n {
+    0.01% {
+        opacity: 0;
+    }
+
+    78% {
+        /* transform: scale(0.9) translateX(-120px) translatey(140px); */
+        opacity: 1;
+    }
+
+    100% {
+        /* transform: scale(0.9) translateX(-120px) translatey(140px); */
+        opacity: 1;
+    }
+}
