@@ -121,7 +121,7 @@ audio {
     animation-duration: 6.5s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 2.5s;
+    animation-delay: 2s;
     font-size: 8000px;
     position: absolute;
     top: -3000px;
@@ -156,7 +156,7 @@ audio {
     animation-duration: 3s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 8.5s;
+    animation-delay: 8s;
     font-size: 3500px;
     position: absolute;
     top: -1500px;
@@ -191,7 +191,7 @@ audio {
     animation-duration: 2.7s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 11.5s;
+    animation-delay: 11s;
     font-size: 3500px;
     position: absolute;
     top: -1020px;
@@ -224,7 +224,7 @@ audio {
     animation-duration: 2.7s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 11.5s;
+    animation-delay: 11s;
     font-size: 3500px;
     position: absolute;
     top: -1220px;
@@ -257,7 +257,7 @@ audio {
     animation-duration: 2.8s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 14.2s;
+    animation-delay: 13.7s;
     font-size: 3500px;
     position: absolute;
     top: -3106px;
@@ -292,7 +292,7 @@ audio {
     animation-duration: 2.8s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 14.2s;
+    animation-delay: 13.7s;
     font-size: 2500px;
     position: absolute;
     top: 16px;
@@ -325,7 +325,7 @@ audio {
     animation-duration: 3s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 17s;
+    animation-delay: 16.5s;
     font-size: 3500px;
     position: absolute;
     top: -1089px;
@@ -359,7 +359,7 @@ audio {
     animation-duration: 3s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 17s;
+    animation-delay: 16.5s;
     font-size: 2800px;
     position: absolute;
     top: -802px;
@@ -393,7 +393,7 @@ audio {
     animation-duration: 5s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 20s;
+    animation-delay: 19.5s;
     font-size: 1250px;
     position: absolute;
     top: -948px;
@@ -430,7 +430,7 @@ audio {
     animation-duration: 5s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 20s;
+    animation-delay: 19.5s;
     font-size: 1250px;
     position: absolute;
     top: -948px;
@@ -467,7 +467,7 @@ audio {
     animation-duration: 5s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 20s;
+    animation-delay: 19.5s;
     font-size: 1250px;
     position: absolute;
     top: 218px;
@@ -504,7 +504,7 @@ audio {
     animation-duration: 5s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 20s;
+    animation-delay: 19.5s;
     font-size: 1250px;
     position: absolute;
     top: 218px;
@@ -542,7 +542,7 @@ audio {
     animation-duration: 4.2s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 21.5s;
+    animation-delay: 21s;
     font-size: 700px;
     position: absolute;
     top: -70px;
@@ -579,7 +579,7 @@ audio {
     animation-duration: 4.2s;
     animation-timing-function: linear;
     visibility: visible !important;
-    animation-delay: 21.5s;
+    animation-delay: 21s;
     font-size: 700px;
     position: absolute;
     top: -70px;
@@ -616,7 +616,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: -550px;
@@ -651,7 +651,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: -550px;
@@ -686,7 +686,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: 159px;
@@ -721,7 +721,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: 233px;
@@ -756,7 +756,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: -514px;
@@ -791,7 +791,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: -550px;
@@ -826,7 +826,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: 1000px;
@@ -861,7 +861,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: 159px;
@@ -896,7 +896,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: -1500px;
@@ -931,7 +931,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: 1846px;
@@ -966,7 +966,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: -2000px;
@@ -1001,7 +1001,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: 2100px;
@@ -1036,7 +1036,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: -800px;
@@ -1071,7 +1071,7 @@ audio {
     animation-duration: 14s;
     animation-timing-function: ease-out;
     visibility: visible !important;
-    animation-delay: 25.7s;
+    animation-delay: 25.2s;
     font-size: 800px;
     position: absolute;
     top: -800px;
