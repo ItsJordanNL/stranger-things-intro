@@ -43,7 +43,7 @@ body {
 
 .scene8-a {
     animation-name: scene8-a;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: ease-out;
     visibility: visible !important;
     /* animation-delay: 25.5s; */
@@ -78,7 +78,7 @@ body {
 
 .scene8-n1 {
     animation-name: scene8-n1;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: ease-out;
     visibility: visible !important;
     /* animation-delay: 25.5s; */
@@ -113,7 +113,7 @@ body {
 
 .scene8-i {
     animation-name: scene8-i;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: ease-out;
     visibility: visible !important;
     /* animation-delay: 25.5s; */
@@ -148,7 +148,7 @@ body {
 
 .scene8-g2 {
     animation-name: scene8-g2;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: ease-out;
     visibility: visible !important;
     /* animation-delay: 25.5s; */
@@ -183,7 +183,7 @@ body {
 
 .scene8-g1 {
     animation-name: scene8-g1;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: ease-out;
     visibility: visible !important;
     /* animation-delay: 25.5s; */
@@ -216,9 +216,9 @@ body {
     }
 }
 
-.scene8-r {
-    animation-name: scene8-r;
-    animation-duration: 20s;
+.scene8-r1 {
+    animation-name: scene8-r1;
+    animation-duration: 15s;
     animation-timing-function: ease-out;
     visibility: visible !important;
     /* animation-delay: 25.5s; */
@@ -238,7 +238,7 @@ body {
         0 0 100px #450100;
 }
 
-@keyframes scene8-r {
+@keyframes scene8-r1 {
     0.01% {
         opacity: 1;
     }
@@ -253,7 +253,7 @@ body {
 
 .scene8-n2 {
     animation-name: scene8-n2;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: ease-out;
     visibility: visible !important;
     /* animation-delay: 25.5s; */
@@ -288,7 +288,7 @@ body {
 
 .scene8-t2 {
     animation-name: scene8-t2;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: ease-out;
     visibility: visible !important;
     /* animation-delay: 25.5s; */
@@ -323,7 +323,7 @@ body {
 
 .scene8-t1 {
     animation-name: scene8-t1;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: ease-out;
     visibility: visible !important;
     /* animation-delay: 25.5s; */
@@ -358,14 +358,14 @@ body {
 
 .scene8-h {
     animation-name: scene8-h;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: ease-out;
     visibility: visible !important;
     /* animation-delay: 25.5s; */
     font-size: 800px;
     position: absolute;
     top: 1846px;
-    left: 324px;
+    left: -200px;
     backface-visibility: hidden;
     z-index: 7;
     opacity: 0;
@@ -387,6 +387,272 @@ body {
         transform: scale(0.2);
         top: -65px;
         left: 321px;
+        opacity: 1;
+    }
+}
+
+.scene8-e {
+    animation-name: scene8-e;
+    animation-duration: 15s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: -2000px;
+    left: 1800px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-e {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -203px;
+        left: 762px;
+        opacity: 1;
+    }
+}
+
+.scene8-s2 {
+    animation-name: scene8-s2;
+    animation-duration: 15s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: 2100px;
+    left: 1800px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-s2 {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        top: -67px;
+        left: 756px;
+        opacity: 1;
+    }
+}
+
+.scene8-r2 {
+    animation-name: scene8-r2;
+    animation-duration: 15s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: -800px;
+    left: 4000px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-r2 {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.26);
+        top: -187px;
+        left: 858px;
+        opacity: 1;
+    }
+}
+
+.scene8-s1 {
+    animation-name: scene8-s1;
+    animation-duration: 15s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    font-size: 800px;
+    position: absolute;
+    top: -800px;
+    left: -4200px;
+    backface-visibility: hidden;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-shadow: -0.1rem -0.1rem 1px #ed2b12,
+        0.1rem -0.1rem 1px #ed2b12,
+        -0.1rem 0.1rem 1px #ed2b12,
+        0.1rem 0.1rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-s1 {
+    0.01% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.26);
+        top: -187px;
+        left: 113px;
+        opacity: 1;
+    }
+}
+
+.scene8-box1 {
+    animation-name: scene8-box1;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    position: absolute;
+    top: 180px;
+    left: 672px;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    width: 186px;
+    height: 8px;
+    background-color: #1c0502;
+    box-shadow:
+        -0.03rem -0.03rem 1px #ed2b12,
+        0.03rem -0.03rem 1px #ed2b12,
+        -0.03rem 0.03rem 1px #ed2b12,
+        0.03rem 0.03rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-box1 {
+    0.01% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+        width: 186px;
+        left: 672px;
+    }
+
+    100% {
+        width: 912px;
+        left: 314px;
+        opacity: 1;
+    }
+}
+
+.scene8-box2 {
+    animation-name: scene8-box2;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    position: absolute;
+    top: 377px;
+    left: 414px;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    width: 41px;
+    height: 8px;
+    background-color: #1c0502;
+    box-shadow:
+        -0.03rem -0.03rem 1px #ed2b12,
+        0.03rem -0.03rem 1px #ed2b12,
+        -0.03rem 0.03rem 1px #ed2b12,
+        0.03rem 0.03rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-box2 {
+    0.01% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+        width: 41px;
+        left: 414px;
+    }
+
+    100% {
+        width: 141px;
+        left: 314px;
+        opacity: 1;
+    }
+}
+
+.scene8-box3 {
+    animation-name: scene8-box3;
+    animation-duration: 20s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+    /* animation-delay: 25.5s; */
+    position: absolute;
+    top: 377px;
+    left: 1075px;
+    z-index: 7;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    width: 41px;
+    height: 8px;
+    background-color: #1c0502;
+    box-shadow:
+        -0.03rem -0.03rem 1px #ed2b12,
+        0.03rem -0.03rem 1px #ed2b12,
+        -0.03rem 0.03rem 1px #ed2b12,
+        0.03rem 0.03rem 1px #ed2b12,
+        0 0 75px #630100,
+        0 0 100px #450100;
+}
+
+@keyframes scene8-box3 {
+    0.01% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+        width: 45px;
+        left: 1075px;
+    }
+
+    100% {
+        width: 151px;
+        left: 1075px;
         opacity: 1;
     }
 }
